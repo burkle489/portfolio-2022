@@ -1,0 +1,12 @@
+.Image {
+  display: block;
+  border-width: 1rem;
+  border-style: solid;
+  border-color: $color-lightest;
+  background-clip: border-box;
+  width: 100%;
+  object-fit: cover;
+  &.Rounded {
+    border-radius: 50%;
+  }
+}

@@ -1,0 +1,30 @@
+.Nav {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  padding: 0 30px;
+  top: 0;
+  z-index: 99;
+  height: 60px;
+  background-color: $color-lightest;
+}
+
+.NavLinks {
+  display: flex;
+}
+.NavLink {
+  color: $color-darkest;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 0 10px;
+  text-transform: uppercase;
+}
+
+.BurgerMenu {
+  display: none;
+  @include bp("tablet") {
+    display: block;
+  }
+}
