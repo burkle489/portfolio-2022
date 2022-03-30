@@ -1,8 +1,12 @@
 .About {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100vw;
   height: calc(100vh - 60px);
   background-color: $color-dark;
+  .ImageContainer {
+    margin-bottom: 2rem;
+  }
 }

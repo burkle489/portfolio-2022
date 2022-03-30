@@ -1,14 +1,18 @@
 *,
 body {
   font-size: 67.5%;
+  box-sizing: border-box;
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 
-$color-darkest: #00226b;
+$color-darkest: #00123a;
 $color-very-dark: #1505e8;
 $color-dark: #0526f2;
 $color-middle: #1057db;
@@ -39,9 +43,7 @@ $breakpoints: (
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -51,6 +53,18 @@ code {
     monospace;
 }
 
+h1 {
+  font-size: 3.6rem;
+  margin-bottom: 1rem;
+  color: $color-darkest;
+}
+h2 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  color: $color-darkest;
+}
+
 @import "./components/Navbar/Navbar.scss";
 @import "./components/About/About.scss";
+@import "./components/Projects/Projects.scss";
 @import "./components/Image/Image.scss";
