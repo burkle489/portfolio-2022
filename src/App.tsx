@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import './App.css';
 import { About } from './components/About/About';
+import { Contact } from './components/Contact/Contact';
 import { ChangeMe } from './components/Navbar/models';
 import { Navbar } from './components/Navbar/Navbar';
 import { Projects } from './components/Projects/Projects';
@@ -18,6 +19,7 @@ const App = () => {
       <Navbar />
       <About innerRef={aboutRef} toNextSection={handleNextSection(projectsRef)} />
       <Projects innerRef={projectsRef} />
+      <Contact innerRef={contactRef} />
     </div>
   );
 }

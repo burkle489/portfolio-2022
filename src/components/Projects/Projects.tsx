@@ -6,7 +6,7 @@ type ProjectsProps = ChangeMe;
 export const Projects: React.FC<ProjectsProps> = ({ innerRef }) => {
     return (
         <section className='Projects' ref={innerRef}>
-            PROJECTS
+            <h1>Projects</h1>
         </section>
     )
 }
