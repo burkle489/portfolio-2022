@@ -1,17 +1,3 @@
-*,
-body {
-  font-size: 67.5%;
-  box-sizing: border-box;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html {
-  scroll-behavior: smooth;
-}
-
 $color-darkest: #00123a;
 $color-very-dark: #1505e8;
 $color-dark: #0526f2;
@@ -41,16 +27,25 @@ $breakpoints: (
   }
 }
 
+*,
+body {
+  font-size: 67.5%;
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }
 
 h1 {
@@ -62,6 +57,22 @@ h2 {
   font-size: 2.8rem;
   margin-bottom: 1rem;
   color: $color-darkest;
+}
+
+section {
+  padding: 40px 30px;
+}
+
+.SectionHeaderContainer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.SectionBody {
+  height: 100%;
+  width: 100%;
 }
 
 @import "./components/Navbar/Navbar.scss";
