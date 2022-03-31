@@ -9,7 +9,7 @@ import { handleScrollToComponent } from './helpers';
 const App = () => {
   const projectsRef = useRef(null);
 
-
+  /*TODO - Fix scrollTo destination */
   return (
     <div className="Portfolio">
       <Navbar />

@@ -13,7 +13,14 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ }) => {
             </div>
             <div className='CardSection Bottom'>
                 <div className='Description'>A personal Crypto portfolio</div>
-                <div className='Tech'>React, TypeScipt, Coinbase WebSockets, AWS Amplify </div>
+                <div className='Tech'>
+                    <ul>
+                        <li>React</li>
+                        <li>TypeScript</li>
+                        <li>WebSockets</li>
+                        <li>AWS Amplify</li>
+                    </ul>
+                </div>
             </div>
         </div>
     )
