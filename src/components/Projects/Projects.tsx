@@ -8,7 +8,8 @@ import SkippyScoutIcon from '../../assets/skippy-scout-icon.png';
 import PsycruitIcon from '../../assets/psycruit-icon.png';
 import ClevryIcon from '../../assets/clevry-icon.png';
 import EmbarkIcon from '../../assets/embark-platform-icon.svg';
-// import Icon from '../../assets/psycruit-icon.png';
+import AltCasesIcon from '../../assets/alt-cases-icon.svg';
+import BetDSIIcon from '../../assets/bet-dsi-icon.png';
 
 type ProjectsProps = ChangeMe;
 
@@ -54,6 +55,16 @@ export const Projects: React.FC<ProjectsProps> = ({ innerRef }) => {
             icon: EmbarkIcon,
             title: 'Embark',
             link: 'https://embarkplatform.co.uk/'
+        },
+        {
+            icon: AltCasesIcon,
+            title: 'Embark',
+            link: 'https://www.alt-cases.com/'
+        },
+        {
+            icon: BetDSIIcon,
+            title: 'BetDSI',
+            link: 'https://www.betdsi.eu/'
         },
 
     ]

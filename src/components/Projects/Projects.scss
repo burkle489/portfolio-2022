@@ -78,8 +78,14 @@
   height: 100%;
   background-color: $color-lightest;
   .ClientProjectsSwiper {
+    max-width: 1200px;
     .swiper-slide {
-      max-height: 100px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .swiper-slide a {
     }
     .swiper-slide img {
       display: block;
