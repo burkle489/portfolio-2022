@@ -71,9 +71,9 @@ export const Projects: React.FC<ProjectsProps> = ({ innerRef }) => {
 
     return (
         <section className='Projects HasBottomBanner' ref={innerRef}>
-            <div className='SectionHeaderContainer'>
+            {/* <div className='SectionHeaderContainer'>
                 <h1>Projects</h1>
-            </div>
+            </div> */}
             <div className='SectionBody'>
                 <PersonalProjects projects={PERSONAL_PROJECTS} />
             </div>

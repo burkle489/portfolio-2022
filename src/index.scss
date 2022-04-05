@@ -1,9 +1,9 @@
 $color-darkest: #00123a;
-$color-very-dark: #1505e8;
-$color-dark: #0526f2;
-$color-middle: #1057db;
-$color-light: #058af2;
-$color-lightest: #bce6f4;
+$color-very-dark: #0526f2;
+$color-dark: #2f4af7;
+$color-middle: #5486e1;
+$color-light: #6bb8f3;
+$color-lightest: #e4f0f4;
 
 $breakpoints: (
   "small-mobile": 360px,
@@ -61,9 +61,9 @@ h2 {
 
 section {
   position: relative;
-  padding: 40px 30px;
+  padding: 80px 30px;
   &.HasBottomBanner {
-    padding-bottom: 140px;
+    padding-bottom: 180px;
   }
 }
 
