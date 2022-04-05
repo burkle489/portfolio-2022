@@ -1,7 +1,8 @@
 import React from 'react';
+import { ChangeMe } from '../Navbar/models';
 
-export const Button = () => {
+export const Button: React.FC<ChangeMe> = ({ text, ...props }) => {
     return (
-        <div>Button</div>
+        <button {...props} className='Btn'>{text}</button>
     )
 }
