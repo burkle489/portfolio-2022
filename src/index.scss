@@ -60,7 +60,11 @@ h2 {
 }
 
 section {
+  position: relative;
   padding: 40px 30px;
+  &.HasBottomBanner {
+    padding-bottom: 140px;
+  }
 }
 
 .SectionHeaderContainer {
@@ -73,6 +77,13 @@ section {
 .SectionBody {
   height: 100%;
   width: 100%;
+}
+.SectionBottomBanner {
+  position: absolute;
+  width: 100vw;
+  height: 100px;
+  left: 0;
+  bottom: 0;
 }
 
 @import "./components/Navbar/Navbar.scss";
